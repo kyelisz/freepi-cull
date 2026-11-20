@@ -1,6 +1,6 @@
 # freepi-cull
 
-Viewport culling for the [free-pi](https://github.com/earendil-works) coding-agent
+Viewport culling for the [free-pi](https://www.npmjs.com/package/free-pi-cli) coding-agent
 transcript. Long sessions stop re-rendering every line they have ever printed on
 every frame, so scrolling and streaming stay smooth instead of turning into
 multi-hundred-millisecond repaints.
