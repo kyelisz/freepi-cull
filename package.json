@@ -1,0 +1,15 @@
+{
+  "name": "freepi-cull",
+  "version": "0.1.0",
+  "description": "Viewport culling for the free-pi transcript: stop re-rendering every scrolled-off line each frame",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test/cull.test.mjs && node test/transcript.test.mjs",
+    "bench": "node bench/frame-bench.mjs 2000",
+    "bench:all": "node bench/frame-bench.mjs 400 && node bench/frame-bench.mjs 2000 && node bench/frame-bench.mjs 6000 && node bench/frame-bench.mjs 20000"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
